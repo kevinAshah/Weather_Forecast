@@ -1,0 +1,181 @@
+.CurrentWeather {
+  flex-direction: column-reverse;
+  margin-top: 30px;
+}
+
+.weather-icon {
+  width: 80%;
+  display: block;
+  margin: auto;
+}
+
+.weather-info {
+  text-align: center;
+  margin-top: 8px;
+}
+
+.temperature {
+  font-size: 36px;
+  line-height: 1;
+  margin-bottom: 8px;
+}
+
+.units {
+  position: relative;
+  bottom: 16px;
+  font-size: 15px;
+}
+
+.weather-description::first-letter {
+  text-transform: capitalize;
+}
+
+.more-info-weather {
+  font-size: 13.5px;
+  line-height: 1.6;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.location {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.city {
+  font-size: 25px;
+}
+
+.last-updated {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+@media screen and (min-width: 576px) {
+  .CurrentWeather {
+    margin-top: 40px;
+  }
+
+  .weather-icon {
+    width: 63%;
+  }
+
+  .weather-info {
+    margin-top: 15px;
+  }
+
+  .temperature {
+    font-size: 45px;
+  }
+
+  .units {
+    font-size: 17px;
+    bottom: 20px;
+  }
+
+  .more-info-weather {
+    font-size: 16px;
+    margin-top: 15px;
+  }
+
+  .city {
+    font-size: 33px;
+  }
+
+  .last-updated {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .weather-icon {
+    width: 55%;
+  }
+
+  .weather-info {
+    margin-top: 16px;
+  }
+
+  .temperature {
+    font-size: 52px;
+  }
+
+  .units {
+    bottom: 24px;
+    font-size: 18px;
+  }
+
+  .weather-description {
+    font-size: 18px;
+  }
+
+  .more-info-weather {
+    font-size: 16px;
+    margin-top: 15px;
+  }
+
+  .location {
+    margin-bottom: 25px;
+  }
+
+  .city {
+    font-size: 38px;
+  }
+
+  .last-updated {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .CurrentWeather {
+    flex-direction: row;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .weather-icon-elem {
+    padding-left: 0;
+  }
+
+  .weather-icon {
+    width: 85%;
+  }
+
+  .weather-info {
+    text-align: left;
+    padding-right: 0;
+    margin-top: 5px;
+  }
+
+  .weather-description {
+    font-size: 16px;
+  }
+
+  .temperature {
+    font-size: 45px;
+  }
+
+  .units {
+    font-size: 14px;
+  }
+
+  .more-info-weather {
+    font-size: 13px;
+    margin-top: 5px;
+  }
+
+  .location {
+    text-align: right;
+    padding-right: 0;
+  }
+
+  .city {
+    margin-top: 8px;
+    line-height: 1;
+  }
+
+  .last-updated {
+    margin-top: 8px;
+  }
+}

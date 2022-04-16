@@ -1,0 +1,89 @@
+.FutureWeather {
+  text-align: center;
+  justify-content: center;
+  margin: 18px 0 25px;
+}
+
+.future-weather-elem {
+  margin-top: 18px;
+}
+
+.future-weather-day {
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.future-weather-icon {
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+}
+
+.future-weather-temperature {
+  font-size: 13px;
+}
+
+.future-weather-temperature span:last-of-type {
+  opacity: 0.8;
+}
+
+@media screen and (min-width: 576px) {
+  .FutureWeather {
+    margin-top: 22px;
+  }
+
+  .future-weather-elem {
+    margin-top: 30px;
+  }
+
+  .future-weather-icon {
+    width: 45%;
+  }
+
+  .future-weather-day,
+  .future-weather-temperature {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .FutureWeather {
+    margin-top: 24px;
+  }
+
+  .future-weather-icon {
+    width: 45%;
+  }
+
+  .future-weather-elem {
+    margin-top: 33px;
+  }
+
+  .future-weather-day,
+  .future-weather-temperature {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .FutureWeather {
+    margin-top: 20px;
+  }
+
+  .future-weather-icon {
+    width: 65%;
+  }
+
+  .future-weather-elem {
+    margin-top: 33px;
+  }
+
+  .future-weather-day {
+    margin-bottom: 5px;
+  }
+
+  .future-weather-temperature {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+}

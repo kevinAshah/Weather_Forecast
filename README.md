@@ -4,7 +4,7 @@ This is one of the final projects from the [SheCodes React workshop](https://www
 
 ## Link
 
-- Project url (hosted on Netlify)
+- [Project url](https://shecodesreact-weather-forecast.netlify.app/) (hosted on Netlify)
 
 ## Screenshot
 

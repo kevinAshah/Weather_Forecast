@@ -23,6 +23,7 @@
 .units {
   position: relative;
   bottom: 16px;
+  right: 5px;
   font-size: 15px;
 }
 
@@ -35,6 +36,10 @@
   line-height: 1.6;
   text-align: center;
   margin-top: 10px;
+}
+
+.more-info-weather span {
+  margin-left: 20px;
 }
 
 .location {
@@ -78,6 +83,10 @@
     margin-top: 15px;
   }
 
+  .more-info-weather span {
+    margin-left: 120px;
+  }
+
   .city {
     font-size: 33px;
   }
@@ -102,6 +111,7 @@
 
   .units {
     bottom: 24px;
+    right: 7px;
     font-size: 18px;
   }
 
@@ -163,6 +173,10 @@
   .more-info-weather {
     font-size: 13px;
     margin-top: 5px;
+  }
+
+  .more-info-weather span {
+    margin-left: 0;
   }
 
   .location {

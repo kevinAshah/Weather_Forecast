@@ -30,8 +30,8 @@ export default function CurrentWeather() {
             <div className="weather-description">{weatherData.description}</div>
           </div>
           <div className="col-12 col-lg-4 more-info-weather">
-            Humidity: {weatherData.humidity}%<br />
-            Wind: {weatherData.wind} km/h
+            Humidity: {weatherData.humidity}%{" "}
+            <span>Wind: {weatherData.wind} km/h </span>
           </div>
         </div>
       </div>

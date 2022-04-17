@@ -67,7 +67,8 @@
 
 @media screen and (min-width: 992px) {
   .FutureWeather {
-    margin-top: 20px;
+    margin-top: 15px;
+    margin-bottom: 30px;
   }
 
   .future-weather-icon {

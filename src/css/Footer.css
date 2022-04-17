@@ -7,12 +7,12 @@ footer {
 
 footer a {
   text-decoration: none;
-  color: #233142;
+  color: var(--link-color);
   transition: color 200ms ease-in-out;
 }
 
 footer a:hover {
-  color: #233142;
+  color: var(--link-color);
   text-decoration: underline;
 }
 

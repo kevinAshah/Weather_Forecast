@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer>
       <a
-        href="https://github.com/chiarastef/Weather-app"
+        href="https://github.com/chiarastef/react-weather-website"
         target="_blank"
         rel="noreferrer"
       >

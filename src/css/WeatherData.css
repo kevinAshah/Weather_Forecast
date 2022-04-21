@@ -3,31 +3,18 @@
   margin-top: 30px;
 }
 
-.weather-icon {
+/* .weather-icon {
   width: 80%;
   display: block;
   margin: auto;
-}
+} */
 
 .weather-info {
   text-align: center;
   margin-top: 8px;
 }
 
-.temperature {
-  font-size: 36px;
-  line-height: 1;
-  margin-bottom: 8px;
-}
-
-.units {
-  position: relative;
-  bottom: 16px;
-  right: 5px;
-  font-size: 15px;
-}
-
-.weather-description::first-letter {
+.weather-description {
   text-transform: capitalize;
 }
 
@@ -69,15 +56,6 @@
     margin-top: 15px;
   }
 
-  .temperature {
-    font-size: 45px;
-  }
-
-  .units {
-    font-size: 17px;
-    bottom: 20px;
-  }
-
   .more-info-weather {
     font-size: 16px;
     margin-top: 15px;
@@ -103,16 +81,6 @@
 
   .weather-info {
     margin-top: 16px;
-  }
-
-  .temperature {
-    font-size: 52px;
-  }
-
-  .units {
-    bottom: 24px;
-    right: 7px;
-    font-size: 18px;
   }
 
   .weather-description {
@@ -160,14 +128,6 @@
 
   .weather-description {
     font-size: 16px;
-  }
-
-  .temperature {
-    font-size: 45px;
-  }
-
-  .units {
-    font-size: 14px;
   }
 
   .more-info-weather {

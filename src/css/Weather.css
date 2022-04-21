@@ -17,7 +17,7 @@
 
 .btn {
   width: 47%;
-  color: #3a438b;
+  color: var(--accent-color);
   background-color: var(--primary-color);
   box-shadow: var(--box-shadow);
   transition: background-color 200ms ease-in-out;

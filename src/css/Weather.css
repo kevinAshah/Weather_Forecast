@@ -27,6 +27,11 @@
   background-color: var(--darker-primary-color);
 }
 
+.spinner {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
 @media screen and (min-width: 576px) {
   .Search {
     padding-left: 30px;

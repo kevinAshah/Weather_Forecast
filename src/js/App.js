@@ -1,5 +1,5 @@
 import Weather from "./Weather";
-//import FutureWeather from "./FutureWeather";
+
 import Attribution from "./Attribution";
 import Footer from "./Footer";
 
@@ -10,7 +10,6 @@ function App() {
     <div className="App">
       <div className="container">
         <Weather defaultCity="London" />
-        {/* <FutureWeather /> */}
         <Attribution />
       </div>
       <Footer />

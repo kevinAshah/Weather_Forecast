@@ -6,23 +6,18 @@ import "../css/WeatherData.css";
 
 export default function WeatherData(props) {
   return (
-    <div className="CurrentWeather row">
+    <div className="WeatherData row">
       <div className="col-12 col-lg-7">
         <div className="row">
           <div className="col-6 col-lg-4 weather-icon-elem">
-            <WeatherIcon code={props.data.icon} />
-            {/* <img
-              src={props.data.icon}
-              alt={props.data.description}
-              className="weather-icon"
-            /> */}
+            <WeatherIcon code={props.data.icon} size={80} />
           </div>
           <div className="col-6 col-lg-4 weather-info">
             <Temperature celsius={props.data.temperature} />
             <div className="weather-description">{props.data.description}</div>
           </div>
           <div className="col-12 col-lg-4 more-info-weather">
-            Humidity: {props.data.humidity}%{" "}
+            <span>Humidity: {props.data.humidity}% </span>
             <span>Wind: {props.data.wind} km/h </span>
           </div>
         </div>

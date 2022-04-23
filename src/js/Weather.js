@@ -1,15 +1,15 @@
 import { useState } from "react";
 import axios from "axios";
+import { SpinnerCircular } from "spinners-react";
 
 import "../css/Weather.css";
 
 import WeatherData from "./WeatherData";
+import WeatherForecast from "./WeatherForecast";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
-
-//import weatherNow from "../images/01d.png";
 
 export default function Weather(props) {
   const [weatherData, setWeatherData] = useState({ loaded: false });
@@ -25,6 +25,7 @@ export default function Weather(props) {
       wind: Math.round(response.data.wind.speed),
       city: response.data.name,
       date: new Date(response.data.dt * 1000),
+      coords: response.data.coord,
     });
   }
 
@@ -66,10 +67,15 @@ export default function Weather(props) {
           </div>
         </form>
         <WeatherData data={weatherData} />
+        <WeatherForecast coords={weatherData.coords} />
       </div>
     );
   } else {
     searchCity();
-    return "Loading...";
+    return (
+      <div className="spinner">
+        <SpinnerCircular color="#3a438b" />
+      </div>
+    );
   }
 }

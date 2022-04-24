@@ -1,7 +1,7 @@
 import WeatherIcon from "./WeatherIcon";
 
 import Temperature from "./Temperature";
-import FormattedDate from "./FormattedDate";
+import FormatDate from "./FormatDate";
 
 import "../css/WeatherData.css";
 
@@ -26,7 +26,7 @@ export default function WeatherData(props) {
       <div className="col-12 col-lg-5 location">
         <div className="city">{props.data.city}</div>
         <div className="last-updated">
-          Last updated: <FormattedDate date={props.data.date} />
+          Last updated: <FormatDate date={props.data.date} />
         </div>
       </div>
     </div>

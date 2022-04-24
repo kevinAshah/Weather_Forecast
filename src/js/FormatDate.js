@@ -1,4 +1,4 @@
-export default function FormattedDate(props) {
+export default function FormatDate(props) {
   const days = [
     "Sunday",
     "Monday",

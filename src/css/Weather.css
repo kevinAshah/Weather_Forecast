@@ -1,4 +1,4 @@
-.Search {
+.search {
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -20,7 +20,7 @@
   color: var(--accent-color);
   background-color: var(--primary-color);
   box-shadow: var(--box-shadow);
-  transition: background-color 200ms ease-in-out;
+  transition: background-color 400ms ease-in-out;
 }
 
 .btn:hover {
@@ -33,7 +33,7 @@
 }
 
 @media screen and (min-width: 576px) {
-  .Search {
+  .search {
     padding-left: 30px;
     padding-right: 30px;
     margin-bottom: 30px;
@@ -45,7 +45,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .Search {
+  .search {
     padding-left: 35px;
     padding-right: 35px;
     margin-bottom: 35px;
@@ -53,7 +53,7 @@
 }
 
 @media screen and (min-width: 992px) {
-  .Search {
+  .search {
     padding-left: 40px;
     padding-right: 40px;
     margin-bottom: 45px;

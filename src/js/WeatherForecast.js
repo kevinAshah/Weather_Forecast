@@ -9,6 +9,7 @@ export default function WeatherForecast(props) {
   const [loaded, setLoaded] = useState(false);
   const [forecastData, setForecastData] = useState(null);
 
+  // When coordinates change, set loaded to false to fetch new city data
   useEffect(() => {
     setLoaded(false);
   }, [props.coords]);
@@ -18,9 +19,10 @@ export default function WeatherForecast(props) {
     setLoaded(true);
   }
 
+  // Get weather forecast for next days
   function getWeatherForecast() {
     const apiKey = "5a6903eab650be6a07243d3bc71995a1";
-    let apiUrl = `https://api.openweathermap.org/data/2.5/onecall?lat=${props.coords.lat}&lon=${props.coords.lon}&appid=${apiKey}&units=metric`;
+    const apiUrl = `https://api.openweathermap.org/data/2.5/onecall?lat=${props.coords.lat}&lon=${props.coords.lon}&appid=${apiKey}&units=metric`;
     axios.get(apiUrl).then(handleResponse);
   }
 

@@ -2,6 +2,7 @@ import WeatherIcon from "./WeatherIcon";
 
 import Temperature from "./Temperature";
 import FormattedDate from "./FormattedDate";
+
 import "../css/WeatherData.css";
 
 export default function WeatherData(props) {

@@ -6,15 +6,18 @@ This is one of the final projects from the [SheCodes React workshop](https://www
 
 - [Project url](https://shecodesreact-weather-forecast.netlify.app/) (hosted on Netlify)
 
-## Screenshot
+## Screenshots
 
-Coming soon
+<img src="./screenshots/weather-website-desktop-preview.png" alt="Weather website desktop preview" width="74%"> 
+<img src="./screenshots/weather-website-mobile-preview.png" alt="Weather website mobile preview" width="25%">
 
 ## Project
 
 Users should be able to:
 
-- Coming soon
+- Check the current weather and the forecast of the city typed in the input field
+- Check the current weather and the forecast of the user's current location
+- View the current temperature in Celsius or Fahrenheit
 
 ## Built with
 
@@ -25,6 +28,7 @@ Users should be able to:
 - React
 - Axios
 - OpenWeatherMap API
+- Font Awesome
 
 ## Author
 

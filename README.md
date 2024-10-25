@@ -1,39 +1,37 @@
-# Weather Forecast Website
+# Weather Forecast Website 🌤️
 
-This is one of the final projects from the [SheCodes React workshop](https://www.shecodes.io/react).
+## Project Overview
 
-## Link
+The **Weather Forecast Website** is a dynamic web application that provides users with real-time weather information and forecasts. Whether you're planning your day or just curious about the weather in a different location, this application has you covered!
 
-- [Project url](https://shecodesreact-weather-forecast.netlify.app/) (hosted on Netlify)
+## Live Demo
 
-## Screenshots
+Check out the live version of the project here: [Project URL](https://shecodesreact-weather-forecast.netlify.app/) (hosted on Netlify)
 
-<img src="./screenshots/weather-website-desktop-preview.png" alt="Weather website desktop preview" width="74%"> 
-<img src="./screenshots/weather-website-mobile-preview.png" alt="Weather website mobile preview" width="25%">
+## Features
 
-## Project
+Users can:
 
-Users should be able to:
+- **Search for Weather**: Enter the name of any city to check the current weather conditions and forecasts.
+- **Get Current Location Weather**: Automatically retrieve the weather for the user's current location with a single click.
+- **Temperature Units**: View the current temperature in either Celsius or Fahrenheit, based on user preference.
 
-- Check the current weather and the forecast of the city typed in the input field
-- Check the current weather and the forecast of the user's current location
-- View the current temperature in Celsius or Fahrenheit
+## Built With
 
-## Built with
+This project was built using:
 
-- HTML
-- CSS
-- Bootstrap
-- JavaScript
-- React
-- Axios
-- OpenWeatherMap API
-- Font Awesome
+- **HTML**: For structuring the web pages.
+- **CSS**: For styling the application and enhancing the user interface.
+- **Bootstrap**: To ensure a responsive design and improve the overall layout.
+- **JavaScript**: For client-side scripting and dynamic content rendering.
+- **React**: To build a component-based architecture for better maintainability and scalability.
+- **OpenWeatherMap API**: To fetch weather data and forecasts in real-time.
 
-## Author
+## Installation
 
-Chiara Stefanelli - Front-End Development Student based in Italy
+To run the project locally, follow these steps:
 
-- Website - [Chiara Stefanelli](https://chiarastefanelli.netlify.app/)
-- LinkedIn - [Chiara Stefanelli](https://www.linkedin.com/in/chiarastefanelli/?locale=en_US)
-- start2impact profile - [Chiara Stefanelli](https://talent.start2impact.it/profile/chiara-stefanelli-13)
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/kevinAshah/Weather_Forecast.git
+   ```

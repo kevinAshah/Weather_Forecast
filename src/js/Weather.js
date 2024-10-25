@@ -15,7 +15,7 @@ export default function Weather(props) {
   const [weatherData, setWeatherData] = useState({ loaded: false });
   const [city, setCity] = useState(props.defaultCity);
 
-  const apiKey = "5a6903eab650be6a07243d3bc71995a1";
+  const apiKey = process.env.REACT_APP_API_KEY;
 
   // Set weather data fetched from API call
   function getWeatherData(response) {

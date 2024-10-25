@@ -8,9 +8,9 @@ export default function Footer() {
         target="_blank"
         rel="noreferrer"
       >
-        Open-source code
+      Project by Kevin Shah
       </a>{" "}
-      by Chiara Stefanelli
+      
     </footer>
   );
 }

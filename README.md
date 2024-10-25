@@ -6,7 +6,7 @@ The **Weather Forecast Website** is a dynamic web application that provides user
 
 ## Live Demo
 
-Check out the live version of the project here: [Project URL](https://shecodesreact-weather-forecast.netlify.app/) (hosted on Netlify)
+Check out the live version of the project here: [Project URL](https://weather-forecasts-demo.netlify.app/) (hosted on Netlify)
 
 ## Features
 
@@ -26,12 +26,3 @@ This project was built using:
 - **JavaScript**: For client-side scripting and dynamic content rendering.
 - **React**: To build a component-based architecture for better maintainability and scalability.
 - **OpenWeatherMap API**: To fetch weather data and forecasts in real-time.
-
-## Installation
-
-To run the project locally, follow these steps:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/kevinAshah/Weather_Forecast.git
-   ```

@@ -8,7 +8,7 @@ export default function Footer() {
         target="_blank"
         rel="noreferrer"
       >
-      Project by Kevin Shah
+      ~ Kevin Shah
       </a>{" "}
       
     </footer>
